@@ -1,0 +1,17 @@
+hello
+
+git init
+git add <file>
+git add .
+git status
+git log
+
+git commit -m "Hint about commit"
+
+git commit --amend -m "Trying amend commit"
+
+git show <commit_ID>
+  " This will show the changes asociated to this commit ID "
+
+git resest --soft <commit_ID>
+  "Deleting all commit_IDs after the specified <commit_ID> and associate all modifications to the specified <commit_ID> "
