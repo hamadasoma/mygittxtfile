@@ -15,3 +15,20 @@ git show <commit_ID>
 
 git resest --soft <commit_ID>
   "Deleting all commit_IDs after the specified <commit_ID> and associate all modifications to the specified <commit_ID> "
+
+===============================================================
+Branching
+---------
+git branch 
+ " Creating branch "
+git checkout -b NewFeature
+ " Creating a feature branched of master. This feature is called NewFeature "
+===============================================================
+By default we are located in the master branch.
+
+To create branch (NewFeature) from master ===>>  git checkout -b NewFeature
+Now we are located in the NewFeature branch.
+Any new commits will be associated to NewFeature branch 
+Any [git log] command will show all commits under master and under NewFeature.
+command [git bransh] will show which branch we are located in now. 
+If we want to go to master branch ===> git checkout master
