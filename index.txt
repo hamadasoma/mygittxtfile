@@ -23,6 +23,10 @@ git branch
  " Creating branch "
 git checkout -b NewFeature
  " Creating a feature branched of master. This feature is called NewFeature "
+------------------------------------------
+git checkout <commit_ID>
+ "Where I will create a branch"
+git checkout -b NewFeature
 ===============================================================
 By default we are located in the master branch.
 
@@ -33,3 +37,9 @@ Any [git log] command will show all commits under master and under NewFeature.
 command [git bransh] will show which branch we are located in now. 
 If we want to go to master branch ===> git checkout master
 If we want to go to NewFeature.branch ===> git checkout NewFeature.
+=================================================================
+git merge NewFeature
+
+---------------------------
+git push origin master
+git push origin NewFeature
