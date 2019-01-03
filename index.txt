@@ -15,3 +15,11 @@ git show <commit_ID>
 
 git resest --soft <commit_ID>
   "Deleting all commit_IDs after the specified <commit_ID> and associate all modifications to the specified <commit_ID> "
+
+===============================================================
+Branching
+---------
+git branch 
+ " Creating branch "
+git checkout -b NewFeature
+ " Creating a feature branched of branch. This feature is called NewFeature "
