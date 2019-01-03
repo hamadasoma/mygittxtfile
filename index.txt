@@ -32,3 +32,4 @@ Any new commits will be associated to NewFeature branch
 Any [git log] command will show all commits under master and under NewFeature.
 command [git bransh] will show which branch we are located in now. 
 If we want to go to master branch ===> git checkout master
+If we want to go to NewFeature.branch ===> git checkout NewFeature.
